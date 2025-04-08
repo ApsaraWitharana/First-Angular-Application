@@ -1,0 +1,43 @@
+.customer-form-container {
+  max-width: 500px;
+  margin: 40px auto;
+  padding: 30px;
+  background-color: #f5f5f5;
+  border-radius: 15px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+.customer-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.customer-form label {
+  margin: 12px 0 6px;
+  font-weight: bold;
+}
+
+.customer-form input,
+.customer-form textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 16px;
+  resize: vertical;
+}
+
+.customer-form button {
+  margin-top: 20px;
+  padding: 12px;
+  background-color: #6a0dad;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.customer-form button:hover {
+  background-color: #4b0780;
+}
